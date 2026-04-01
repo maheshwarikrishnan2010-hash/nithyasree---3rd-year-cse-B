@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="iSVAc3tezAPNJRm6Yie4">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5daUyzLCwu7WAyorWf-E-5" edge="1" parent="1" source="5daUyzLCwu7WAyorWf-E-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="5daUyzLCwu7WAyorWf-E-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5daUyzLCwu7WAyorWf-E-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;" value="User A" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5daUyzLCwu7WAyorWf-E-36" edge="1" parent="1" source="5daUyzLCwu7WAyorWf-E-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="5daUyzLCwu7WAyorWf-E-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5daUyzLCwu7WAyorWf-E-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="User B" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5daUyzLCwu7WAyorWf-E-13" edge="1" parent="1" source="5daUyzLCwu7WAyorWf-E-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="5daUyzLCwu7WAyorWf-E-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5daUyzLCwu7WAyorWf-E-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Load balancer" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5daUyzLCwu7WAyorWf-E-28" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.envelope_(message);" value="Message Queue&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="80" x="620" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="5daUyzLCwu7WAyorWf-E-31" edge="1" parent="1" source="5daUyzLCwu7WAyorWf-E-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.672;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="5daUyzLCwu7WAyorWf-E-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5daUyzLCwu7WAyorWf-E-32" edge="1" parent="1" source="5daUyzLCwu7WAyorWf-E-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5daUyzLCwu7WAyorWf-E-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5daUyzLCwu7WAyorWf-E-37" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="5daUyzLCwu7WAyorWf-E-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5daUyzLCwu7WAyorWf-E-29" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_Partial_128x128.png" value="Chat Server&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="80" x="340" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="5daUyzLCwu7WAyorWf-E-30" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;" value="Database&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="60" x="170" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="5daUyzLCwu7WAyorWf-E-33" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Windows_Notification_Services.svg;" value="Notification Service&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="610" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="5daUyzLCwu7WAyorWf-E-34" edge="1" parent="1" source="5daUyzLCwu7WAyorWf-E-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.488;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" target="5daUyzLCwu7WAyorWf-E-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NEUnWlqpS_Qw4oKpobr_-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontColor=light-dark(#000000,#FFFFFF);fontSize=20;fontFamily=Times New Roman;" value="User A sends a message&#xa;Request goes to Load Balancer&#xa;Load Balancer sends it to Chat Server&#xa;Chat Server stores message in Database&#xa;If User B is online → message delivered instantly&#xa;If User B is offline → stored in Message Queue&#xa;Notification Service sends notification" vertex="1">
+          <mxGeometry height="260" width="490" x="170" y="780" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
